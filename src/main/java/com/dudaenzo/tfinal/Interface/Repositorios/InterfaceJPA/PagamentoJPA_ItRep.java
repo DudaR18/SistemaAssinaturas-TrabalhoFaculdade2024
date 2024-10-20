@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.dudaenzo.tfinal.Interface.Repositorios.Entidades.Pagamento;
 
-public interface PagamentoJPA_ItfRep extends CrudRepository<Pagamento, long>{
+public interface PagamentoJPA_ItRep extends CrudRepository<Pagamento, long>{
     List<Pagamento> findAll();
     Pagamento findById(long codigo);
     void deleteById(long codigo)

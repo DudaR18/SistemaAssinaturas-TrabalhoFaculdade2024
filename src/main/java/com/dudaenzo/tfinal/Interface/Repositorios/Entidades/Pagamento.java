@@ -3,11 +3,11 @@ package com.dudaenzo.tfinal.Interface.Repositorios.Entidade;
 import com.dudaenzo.tfinal.Dominio.Entidade.PagamentoModel;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.codigo;
+import jakarta.persistence.Id;
 
 @Entity
 public class Pagamento {
-    @codigo
+    @Id
     private long codigo;
     private double valorPago;
     private Date dataPagamento;

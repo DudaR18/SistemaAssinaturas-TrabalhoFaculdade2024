@@ -3,11 +3,11 @@ package com.dudaenzo.tfinal.Interface.Repositorios.Entidade;
 import com.dudaenzo.tfinal.Dominio.Entidade.AplicativoModel;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.codigo;
+import jakarta.persistence.Id;
 
 @Entity
 public class Aplicativo {
-    @codigo
+    @Id
     private long codigo;
     private String nome;
     private double custoMensal;

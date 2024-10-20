@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.dudaenzo.tfinal.Interface.Repositorios.Entidades.Assinaturas;
 
-public interface AssinaturaJPA_ItfRep extends CrudRepository<Assinaturas, long>{
+public interface AssinaturaJPA_ItRep extends CrudRepository<Assinaturas, long>{
     List<Assinaturas> findAll();
     Assinaturas findById(long codigo);
     void deleteById(long codigo)

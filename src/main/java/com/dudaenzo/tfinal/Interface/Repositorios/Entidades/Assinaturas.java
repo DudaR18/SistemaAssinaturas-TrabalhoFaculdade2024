@@ -3,11 +3,11 @@ package com.dudaenzo.tfinal.Interface.Repositorios.Entidade;
 import com.dudaenzo.tfinal.Dominio.Entidade.AssinaturaModel;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.codigo;
+import jakarta.persistence.Id;
 
 @Entity
 public class Assinaturas{
-    @codigo
+    @Id
     private long codigo;
     private Aplicativo aplicativo;
     private Cliente cliente;

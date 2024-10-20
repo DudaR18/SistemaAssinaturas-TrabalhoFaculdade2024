@@ -3,11 +3,11 @@ package com.dudaenzo.tfinal.Interface.Repositorios.Entidade;
 import com.dudaenzo.tfinal.Dominio.Entidade.ClienteModel;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.codigo;
+import jakarta.persistence.Id;
 
 @Entity
 public class Cliente {
-    @codigo
+    @Id
     private long codigo;
     private String nome;
     private String email;
@@ -34,7 +34,7 @@ public class Cliente {
     }
 
     @Override
-    public String ToString(){
+    public String toString(){
         return "Cliente [codigo=" + codigo + ", email=" + email + ", nome=" + nome + "]";
     }
 
