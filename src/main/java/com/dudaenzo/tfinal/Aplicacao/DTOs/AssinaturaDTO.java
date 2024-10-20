@@ -9,7 +9,6 @@ public class AssinaturaDTO {
     private LocalDate inicioVigencia;
     private LocalDate fimVigencia;
 
-    // Construtor com parâmetros
     public AssinaturaDTO(Long codigo, Long clienteId, Long aplicativoId, LocalDate inicioVigencia, LocalDate fimVigencia) {
         this.codigo = codigo;
         this.clienteId = clienteId;
