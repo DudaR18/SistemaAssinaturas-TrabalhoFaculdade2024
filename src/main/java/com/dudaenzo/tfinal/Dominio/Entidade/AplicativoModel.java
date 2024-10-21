@@ -23,6 +23,10 @@ public class AplicativoModel {
         return this.custoMensal;
     }    
 
+    public void setCustoMensal(double custoMensal) {
+        this.custoMensal = custoMensal;
+    }
+    
 
     @Override
     public String toString() {
